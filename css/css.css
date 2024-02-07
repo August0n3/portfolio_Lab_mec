@@ -75,8 +75,9 @@ a{
 .card {
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 800px; /* Ajuste conforme necessário */
+    width: 90%;
+    height: auto;
+  
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -118,6 +119,7 @@ a{
         border-radius: 8px;
         overflow: scroll;
         padding-left: 40px;
+        height: auto;
       }
       
       .card-image {
