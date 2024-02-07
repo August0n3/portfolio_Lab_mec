@@ -10,8 +10,6 @@ a{
 }
 
 .box{
-    height: auto;
-    width: auto;
     
     margin-bottom:20px;    
 }
@@ -33,7 +31,7 @@ a{
     margin-right: auto;
     border-radius: 30px;
     height: auto;
-    width: 70%;
+    width: 100%;
     max-width: 100%;
     padding: 30px;
     margin-bottom: 20px;
@@ -82,7 +80,8 @@ a{
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: scroll;
+    padding: 10px;
   }
   
   .card-image {
@@ -116,7 +115,8 @@ a{
         margin-bottom: 20px;
         border: 1px solid #ddd;
         border-radius: 8px;
-        overflow: hidden;
+        overflow: scroll;
+        padding-left: 40px;
       }
       
       .card-image {

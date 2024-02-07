@@ -82,7 +82,7 @@ a{
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: scroll;
   }
   
   .card-image {
@@ -99,12 +99,14 @@ a{
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 1.5rem;
+    padding: 5px;
   }
   
   .card-description {
     margin-top: 0;
     font-size: 1rem;
     color: #555;
+    padding: 5px;
   }
   
   /* Media query para telas menores que 768px (tablets e dispositivos móveis em modo paisagem) */
@@ -116,7 +118,8 @@ a{
         margin-bottom: 20px;
         border: 1px solid #ddd;
         border-radius: 8px;
-        overflow: hidden;
+        overflow: scroll;
+        padding-left: 40px;
       }
       
       .card-image {
