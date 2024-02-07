@@ -1,0 +1,144 @@
+body{
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333333;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    height: auto;
+    width: auto;
+    
+    margin-bottom:20px;    
+}
+
+.container{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background: #FFFFFF;
+    padding: 30px;
+
+}
+
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    height: auto;
+    width: 70%;
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    text-align: justify;
+ 
+}
+
+.botao{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70px;
+    margin-left: 250px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #4374B3;
+}
+
+.botao:hover{
+    background-color: #1c4881;
+}
+
+.img_conteudosimg{
+    width: 300px;
+    height: 200px;
+}
+
+.img_conteudos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color:  #F2F2F2 ;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .card-description {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Media query para telas menores que 768px (tablets e dispositivos móveis em modo paisagem) */
+  @media (max-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: column; /* Mudança para empilhar os elementos verticalmente em dispositivos móveis */
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      
+      .card-image {
+        width: 100%; /* Ajuste para ocupar 100% da largura do card */
+        height: auto;
+        object-fit: cover;
+      }
+      
+      .content {
+        padding: 20px;
+      }
+      
+      .card-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+      }
+      
+      .card-description {
+        margin-top: 0;
+        font-size: 1rem;
+        color: #555;
+      }
+  }
+  
